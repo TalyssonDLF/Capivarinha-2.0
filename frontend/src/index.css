@@ -6,9 +6,21 @@ html, body {
   height: 100%;
   overflow-x: hidden;
   font-family: Arial, sans-serif;
-  background: radial-gradient(circle at bottom right, #1f41bb, #101728);
+  background: #1a1a2e;
+  background: linear-gradient(270deg, #350ec0, #1316b3, #3a248b);
+  background-size: 300% 300%;
+  animation: moveGradient 2s infinite linear;
 }
-/* --- Estiliza o header com fundo desfocado --- */
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .header {
     position: fixed;
     top: 0;
