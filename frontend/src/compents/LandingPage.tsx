@@ -3,6 +3,7 @@ import "../index.css"; // Importando o CSS
 import logo from "../assets/haze_logo.png"; // Importando a logo
 import foguete from "../assets/Foguete-haze.png"; // Imagem do foguete
 import axios from "axios"; // Importando o axios
+import TypingEffect from "./TypingEffect";
 
 export default function LandingPage() {
 
@@ -69,10 +70,10 @@ export default function LandingPage() {
           {/* Seção com foguete e título */}
           <div className="hero-section">
             <img src={foguete} alt="Foguete" className="foguete" />
-            <h1 className="title">Venha jogar <br />com a gente</h1>
+            <h1 className="title">Bem-vindo a Haze!</h1>
+            <TypingEffect text="Venha jogar com a gente" />
           </div>
   
-          {/* Botão abaixo do título */}
           <button className="botao" onClick={() => setIsOpen(true)}>
             Entrar
           </button>
