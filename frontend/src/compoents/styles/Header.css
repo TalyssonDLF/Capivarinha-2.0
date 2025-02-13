@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    backdrop-filter: blur(2px); /* Efeito de desfoque */
+    backdrop-filter: blur(5px);
     color: white;
     z-index: 1000;
   }
@@ -17,10 +17,40 @@
     cursor: pointer;
   }
   
-  .profile-container {
+  .coin-container {
     display: flex;
     align-items: center;
-    width: 150px;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
+  .coin-text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .buy-coins {
+    background: gold;
+    border: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  .buy-coins:hover {
+    background: darkgoldenrod;
+  }
+  
+  .profile-container {
+    position: relative;
+    display: flex;
+    width: 110px;
   }
   
   .profile-icon {
@@ -35,52 +65,20 @@
     transform: scale(1.1);
   }
   
-  .dropdown-menu {
-    position: absolute;
-    top: 50px;
-    right: 0;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    min-width: 120px;
-    z-index: 1000;
-    transform: translateX(-20px); /* Ajusta o dropdown mais para dentro */
-  }
+ .shop-button {
+  background: gold;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.shop-button:hover {
+  background: darkgoldenrod;
+}
   
-  .dropdown-menu button {
-    background: none;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 16px;
-    text-align: left;
-    width: 100%;
-  }
-  
-  .dropdown-menu button:hover {
-    background: lightgray;
-  }
-  
-  /* Responsividade */
-  @media (max-width: 768px) {
-    .header {
-      padding: 10px 20px;
-    }
-  
-    .logo {
-      height: 40px;
-    }
-  
-    .profile-icon {
-      width: 35px;
-      height: 35px;
-    }
-  
-    .dropdown-menu {
-        transform: translateX(-50px);
-      }
-  }
   
