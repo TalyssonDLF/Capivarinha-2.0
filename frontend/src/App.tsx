@@ -1,4 +1,4 @@
-import LandingPage from "./compents/LandingPage";
+import LandingPage from "./compoents/LandingPage";
 
 export default function App() {
   return (

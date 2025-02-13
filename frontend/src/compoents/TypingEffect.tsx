@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./TypingEffect.css"; // Importando o CSS
+import "./styles/TypingEffect.css";
 
 interface TypingEffectProps {
   text: string;
