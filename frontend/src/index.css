@@ -6,11 +6,7 @@ html, body {
   height: 100%;
   overflow-x: hidden;
   font-family: Arial, sans-serif;
-  background: #1a1a2e;
- /* background: linear-gradient(270deg, #350ec0, #1316b3, #3a248b);
-  background-size: 300% 300%;
-  animation: moveGradient 2s infinite linear;*/
-  background-image: url('./assets/Universe-bg.gif');
+  background: linear-gradient(to top left, #f06, #252bda);
 }
 
 @keyframes moveGradient {

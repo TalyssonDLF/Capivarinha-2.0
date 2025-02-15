@@ -1,12 +1,12 @@
 .typing-container {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #b700ff;
+    color: #e6a0f4;
     font-family: "Courier New", monospace;
   }
   
   .cursor {
-    color: #a200ff;
+    color: #b74bf5;
     animation: blink 0.8s infinite;
   }
   

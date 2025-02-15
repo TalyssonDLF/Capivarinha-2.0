@@ -42,7 +42,9 @@
   }
   
   .shop-card {
-    background: linear-gradient(135deg, #f05ac3, #f953c6, #b91d73);
+    background: rgba(255, 255, 255, 0.3); /* Fundo branco com 30% de opacidade */
+    backdrop-filter: blur(10px);          /* Aplica blur de 10px no fundo */
+    -webkit-backdrop-filter: blur(10px);
   }
 
   .back-button {
