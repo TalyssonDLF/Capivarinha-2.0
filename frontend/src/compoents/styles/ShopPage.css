@@ -1,0 +1,74 @@
+.shop-container {
+    text-align: center;
+    padding: 100px;
+  }
+  
+  .shop-container h1 {
+    margin-bottom: 10px;
+  }
+  
+  .shop-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .shop-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Estilizando os cards de compra */
+  .shop-card {
+    width: 150px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .shop-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .shop-card {
+    background: rgba(255, 255, 255, 0.3); /* Fundo branco com 30% de opacidade */
+    backdrop-filter: blur(10px);          /* Aplica blur de 10px no fundo */
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .back-button {
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: #f953c6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .back-button:hover {
+    background-color: #d9419c;
+    transform: scale(1.2);
+  }
+  
+  .title{
+    color: white;
+    font-size: 24px;
+  }
+
+  .saldo{
+    color: white;
+    font-size: 18px;
+  }

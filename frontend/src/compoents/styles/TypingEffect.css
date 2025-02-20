@@ -1,0 +1,18 @@
+.typing-container {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e6a0f4;
+    font-family: "Courier New", monospace;
+  }
+  
+  .cursor {
+    color: #b74bf5;
+    animation: blink 0.8s infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
